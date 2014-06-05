@@ -1,0 +1,3 @@
+- with git diff = diffs between repo and working dir.
+
+- how to deal with the rename
