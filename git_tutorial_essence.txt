@@ -1,3 +1,5 @@
-- with git diff = diffs between repo and (working and staging dir)
+- with git diff = diffs between repo and working (and/or staging dir if in same file)
 - with git diff --staged = diffs between repo  and staging dir 
+FUCK see git help diff
 - how to deal with the rename
+asdf
