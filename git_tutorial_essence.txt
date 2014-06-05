@@ -1,3 +1,3 @@
-- with git diff = diffs between working dir and repo ((and staging) aka things that are unique to the wdir)
-- with git diff --staged = diffs between working dir and staging
+- with git diff = diffs between repo and (working and staging dir)
+- with git diff --staged = diffs between repo  and staging dir 
 - how to deal with the rename
