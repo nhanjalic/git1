@@ -1,5 +1,48 @@
+FROM=Git Essential Training with Kevin Skoglund Lynda
+- commit -am"msg"  = add + commit (modified - new and deleted files dont work like this) on the same time
+ ###HELP??? from http://www.lynda.com/Git-tutorials/Comparing-commits/100222/111304-4.html 1min = diff between wd and sd?
 - with git diff = diffs between repo and working (and/or staging dir if in same file)
 - with git diff --staged = diffs between repo  and staging dir 
 FUCK see git help diff
-- how to deal with the rename
-asdf
+- git diff COMMIT = diff between the wd and COMMIT
+- git diff COMMIT FILE = diff between the wd and COMMIT only about that FILE
+- git diff COMMIT..COMMIT = diff between 2 COMMITs
+- git diff --stat --summmary COMMIT..COMMIT = shows list of the files with details
+- git diff --ignore-space-change = git diff -b = ignors white-spaces !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- git diff --ignore-all-space = git diff -w = ignors all spaces !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+###HELP
+- to delte = 1)delete and git rm FILE plus commit
+			2) git rm FILE will delete and adedd to stage 
+- how to deal with the rename - 1)just rename and add+delete later + commit later... or 
+								2)git mv FILE FILE2
+
+- git checkout -- FILE (-- means stay on the current branch) to revert wdir from HEAD repo
+- git checkout 12341234 -- FILE () to revert wdir from repo any previous commit
+- git reset HEAD FILE  to revert stagingdir from repo
+- unduing commits
+- git diff color-words
+- git commit --amend -m"msg" - last commit ist editable via
+
+- git revert 12341234 - revert the changes and commits it
+
+
+- reset = where the head pointer should be moved - soft, mixed, hard
+
+ - git ls-tree HEAD~11 = will show you the tree(files) of the ancestor
+ - git log --oneline 150d68d.. .\first_file.txt = show me all what happend to FILE since COMMIT
+ - git log -p 150d68d.. .\first_file.txt = -p shows the diff of the changes
+ - git log --online --graph --all --decorate= !!!!!!!!!!!!!!!!
+ - git show COMMIT= gis you the info + diff
+
+- git = compare two different commits.
+
+-Using reset to undo commits!!!!!!!!!lynda
+
+
+Using .gitignore files
+gnoring tracked files
+
+
+BRANCHing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- when you create new-branch the HEAD still points to the current-branch,  only once we make new commits to the new-branch then HEAD moves to a new commit(new-branch)
+switch to branch
