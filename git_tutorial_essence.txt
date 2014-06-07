@@ -61,6 +61,19 @@ BRANCHing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -git branch -D NAME = delete branch even if has not commited stages
 - You check out the receiving branch, then you say git merge and then the target branch or the sending branch and that's it.
 
+-git merge --no-ff BRANCH =  no-ff option forces Git to create a merge commit = don't do a fast-forward, make a new commit with the commit message anyway
+-git merge --ff-only BRANCH =  ff-only says do the merge only if you can do a fast-forward otherweise just abort.
+- if you have a conflict = To abort the merge, while we're in this state, all we have to do is say, git merge --abort. 
+ git log --graph --oneline --all --decorate
+
+-git mergetool
+http://kdiff3.sourceforge.net/
+or
+http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools
+
+git stash save "some message" save not added change for later
+http://www.lynda.com/Git-tutorials/Saving-changes-stash/100222/111322-4.html
+git stash pop(removes) or apply(leaves stash)
 
 
 ###FROM ProGit###
