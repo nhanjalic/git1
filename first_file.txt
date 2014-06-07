@@ -1,14 +1,14 @@
 (1)0 change done in b2
 change done in b3
 change done in b4
-2
+2MMMMMMMMMMMMMMMMMMMMMM
 changes done in b1
 change done in b2
 change done in master and b3
-change done in master and b4
+change done in master and b4 MMMMMM
 3
 3
+3MM
 3
 3
-3
-3
+3MM
