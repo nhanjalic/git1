@@ -82,7 +82,7 @@ POINTERS=http://www.lynda.com/Git-tutorials/Using-local-remote-repositories/1002
 - git remote =see what remotes we have
 
 git remote add origin https://github.com/nhanjalic/git1.git
-git push -u origin master = -u means track it!!!!!!!!!!!!!!
+git push -u origin master = -u means track it!!! so next time u can say just "git push" and it will do "git push origin master" BUT I GET ERROR????
 
 git branch -r  = only remote branches 
 git branch -a  = all branches 
