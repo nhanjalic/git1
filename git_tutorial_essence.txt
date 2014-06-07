@@ -89,6 +89,8 @@ git branch -a  = all branches
 
 git clone https://github.com/nhanjalic/git1.git = get it from git 
 
+???how to remove some/one remote?git remote rm origin
+
 ###FROM ProGit###
 
 
