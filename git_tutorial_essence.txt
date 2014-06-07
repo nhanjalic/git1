@@ -59,3 +59,7 @@ BRANCHing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -git branch -m OLDNAME NEWNAME =rename branches
 -git branch -d NAME = delete branch (u cant be on this branch, u havto be on some other)
 -git branch -D NAME = delete branch even if has not commited stages
+
+
+
+###FROM ProGit###
