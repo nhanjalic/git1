@@ -75,17 +75,21 @@ git stash save "some message" save not added change for later
 http://www.lynda.com/Git-tutorials/Saving-changes-stash/100222/111322-4.html
 git stash pop(removes) or apply(leaves stash)
 
+###REMOTE###
+origin/master and push & fetch(brings changes in from remote to origin/master but not in master)
+POINTERS=http://www.lynda.com/Git-tutorials/Using-local-remote-repositories/100222/111327-4.html 4min
+
 
 ###FROM ProGit###
 
 
 ###PROZESS###
-1)pull everything from remote-repo to local-master
-2)merge anything if needed
+1)fetch everything from remote-repo to origin/master
+2)merge anything if needed in local-master
 3)make a local-branch
 4)do the changes
-5)pull everything from remote-repo to local-master(in case someone else commited something to remote-repo)
+5)fetch everything from remote-repo to origin/master and merge in local-master(in case someone else commited something to remote-repo)
 6)merge local-branch to local-master
-7)pull everything from remote-repo to local-master (just check again)
+7)fetch everything from remote-repo to origin/master and merge to local-master (just check again)
 8)push to remote-repo
 
