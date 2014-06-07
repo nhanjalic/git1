@@ -45,4 +45,17 @@ gnoring tracked files
 
 BRANCHing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - when you create new-branch the HEAD still points to the current-branch,  only once we make new commits to the new-branch then HEAD moves to a new commit(new-branch)
-switch to branch
+-git branch = show all branches
+-git branch BRANCH= create new-BRANCH
+-git checkout BRANCH=switch to BRANCH
+-git checkout -b BRANCH= create and switch to BRANCHat the same time
+
+- your working directory must be clean in order to switch branches. Actually, mostly clean(new file allowed). if it's not clean, then Git won't let you do the switch. 
+
+-git diff branch..branch2	=compare branches  (--colorwords)
+
+- git branch --merged = we can find out, whether one branch completely contains another branch or not. That will show us all branches that are completely included in this branch. So in this case we're on the shorten_title branch, all of the commits that are in new_feature are also in shorten_title, all of the commits that are in master are also in shorten_title. so  we can actually delete new feature  and shorten_title wouldn't be affected. 
+
+-git branch -m OLDNAME NEWNAME =rename branches
+-git branch -d NAME = delete branch (u cant be on this branch, u havto be on some other)
+-git branch -D NAME = delete branch even if has not commited stages
