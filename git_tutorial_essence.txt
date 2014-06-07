@@ -79,6 +79,11 @@ git stash pop(removes) or apply(leaves stash)
 origin/master and push & fetch(brings changes in from remote to origin/master but not in master)
 POINTERS=http://www.lynda.com/Git-tutorials/Using-local-remote-repositories/100222/111327-4.html 4min
 
+- git remote =see what remotes we have
+
+git remote add origin https://github.com/nhanjalic/git1.git
+git push -u origin master
+
 
 ###FROM ProGit###
 
