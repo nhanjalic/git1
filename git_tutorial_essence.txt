@@ -59,8 +59,8 @@ BRANCHing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -git branch -m OLDNAME NEWNAME =rename branches
 -git branch -d NAME = delete branch (u cant be on this branch, u havto be on some other)
 -git branch -D NAME = delete branch even if has not commited stages
+- You check out the receiving branch, then you say git merge and then the target branch or the sending branch and that's it.
 
 
 
 ###FROM ProGit###
-asdf
