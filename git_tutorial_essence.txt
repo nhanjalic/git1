@@ -105,6 +105,9 @@ your last commit — only changes that are still unstaged.
 git diff --staged = What have you staged but not commited.
 - git log --pretty=format:"%h - %an, %ar : %s"
 
+git tag v0.1 = add lightweight tag
+git tag -d v0.1 = remove
+
 
 ###PROZESS###
 1)fetch everything from remote-repo to origin/master
