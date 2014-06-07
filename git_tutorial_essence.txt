@@ -84,6 +84,10 @@ POINTERS=http://www.lynda.com/Git-tutorials/Using-local-remote-repositories/1002
 git remote add origin https://github.com/nhanjalic/git1.git
 git push -u origin master
 
+git branch -r  = only remote branches 
+git branch -a  = all branches 
+
+git clone https://github.com/nhanjalic/git1.git = get it from git 
 
 ###FROM ProGit###
 
