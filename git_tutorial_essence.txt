@@ -64,3 +64,15 @@ BRANCHing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 ###FROM ProGit###
+
+
+###PROZESS###
+1)pull everything from remote-repo to local-master
+2)merge anything if needed
+3)make a local-branch
+4)do the changes
+5)pull everything from remote-repo to local-master(in case someone else commited something to remote-repo)
+6)merge local-branch to local-master
+7)pull everything from remote-repo to local-master (just check again)
+8)push to remote-repo
+
