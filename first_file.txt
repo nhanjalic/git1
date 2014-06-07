@@ -1,5 +1,6 @@
 (1)0 change done in b2
 change done in b3
+master change
 2
 changes done in b1
 change done in b2
