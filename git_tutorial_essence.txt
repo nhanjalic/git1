@@ -113,4 +113,4 @@ git remote rm origin = remowe some/one remote
 
 Rulles=
 fetch before you work. 
-fetch before you push. 
+fetch before you push.
