@@ -91,7 +91,14 @@ git clone https://github.com/nhanjalic/git1.git = get it from git
 
 git remote rm origin = remowe some/one remote
 
-###FROM ProGit###
+
+- a fetch is what synchronizes origin/ master with whatever is on the remote repository so:
+-git fetch origin
+-git merge origin/master
+
+ -git pull = is equal to git fetch+git merge.
+
+###FROM ProGit#########################
 
 
 ###PROZESS###
@@ -104,3 +111,6 @@ git remote rm origin = remowe some/one remote
 7)fetch everything from remote-repo to origin/master and merge to local-master (just check again)
 8)push to remote-repo
 
+Rulles=
+fetch before you work. 
+fetch before you push. 
