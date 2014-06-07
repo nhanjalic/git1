@@ -19,9 +19,9 @@ FUCK see git help diff
 - git checkout -- FILE (-- means stay on the current branch) to revert wdir from HEAD repo
 - git checkout 12341234 -- FILE () to revert wdir from repo any previous commit
 - git reset HEAD FILE  to revert stagingdir from repo
-- unduing commits
+- undoing commits
 - git diff color-words
-- git commit --amend -m"msg" - last commit ist editable via
+- git commit --amend -m"msg" - only last commit ist editable via
 
 - git revert 12341234 - revert the changes and commits it
 
@@ -100,6 +100,11 @@ git remote rm origin = remowe some/one remote
 
 ###FROM ProGit#########################
 
+git diff = What have you changed but not yet staged - aka. git diff by itself doesn’t show all changes made since
+your last commit — only changes that are still unstaged.
+git diff --staged = What have you staged but not commited.
+- git log --pretty=format:"%h - %an, %ar : %s"
+
 
 ###PROZESS###
 1)fetch everything from remote-repo to origin/master
@@ -114,3 +119,4 @@ git remote rm origin = remowe some/one remote
 Rulles=
 fetch before you work. 
 fetch before you push.
+
