@@ -83,6 +83,7 @@ POINTERS=http://www.lynda.com/Git-tutorials/Using-local-remote-repositories/1002
 
 git remote add origin https://github.com/nhanjalic/git1.git
 git push -u origin master = -u means track it!!! so next time u can say just "git push" and it will do "git push origin master" BUT I GET ERROR????
+!!! for now use = "git push origin master"
 
 git branch -r  = only remote branches 
 git branch -a  = all branches 
@@ -91,6 +92,7 @@ git clone https://github.com/nhanjalic/git1.git = get it from git
 
 git remote rm origin = remowe some/one remote
 
+??? how to see diff between what is on remote and origin-local???
 
 - a fetch is what synchronizes origin/ master with whatever is on the remote repository so:
 -git fetch origin
